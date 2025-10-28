@@ -1,65 +1,89 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+
+export default function HomePage() {
+  const router = useRouter();
+  const [week, setWeek] = useState("");
+  const [day, setDay] = useState("");
+
+  const handleStart = () => {
+    if (!week) return alert("Please select a week");
+    const dayPath = day ? `/week/${week}/day/${day}` : `/week/${week}/all`;
+    console.log("Navigating to:", dayPath);
+    router.push(dayPath);
+  };
+
+  const handleWholeBook = () => {
+    router.push("/test/all");
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main className="min-h-screen bg-gradient-to-br from-yellow-50 to-yellow-100 flex flex-col justify-center items-center px-6">
+      <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md border border-yellow-200">
+        <h1 className="text-3xl font-bold text-center text-yellow-700 mb-6">
+          N2 Sou Matome Kanji Helper
+        </h1>
+
+      
+        <div className="mb-4">
+          <label className="block mb-1 font-medium text-gray-700">Select Week</label>
+          <select
+            value={week}
+            onChange={(e) => setWeek(e.target.value)}
+            className="w-full border border-yellow-300 rounded-lg p-2 focus:ring-2 focus:ring-yellow-400"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <option value="">Choose Week</option>
+            {[1, 2, 3, 4, 5, 6].map((w) => (
+              <option key={w} value={w}>
+                Week{w}
+              </option>
+            ))}
+          </select>
         </div>
-      </main>
-    </div>
+
+    
+        <div className="mb-6">
+          <label className="block mb-1 font-medium text-gray-700">Select Day</label>
+          <select
+            value={day}
+            onChange={(e) => setDay(e.target.value)}
+            className="w-full border border-yellow-300 rounded-lg p-2 focus:ring-2 focus:ring-yellow-400"
+          >
+            <option value="">Choose Day</option>
+            <option value="all">All Days</option>
+            {[1, 2, 3, 4, 5, 6, 7].map((d) => (
+              <option key={d} value={d}>
+                Day{d}
+              </option>
+            ))}
+          </select>
+        </div>
+
+  
+        <button
+          onClick={handleStart}
+          className="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 rounded-lg shadow-md transition-all"
+        >
+          Start Test
+        </button>
+
+  
+        <div className="my-4 text-center text-gray-400">or</div>
+
+    
+        <button
+          onClick={handleWholeBook}
+          className="w-full bg-yellow-700 hover:bg-yellow-800 text-white font-semibold py-2 rounded-lg shadow-md transition-all"
+        >
+          Whole Book Test
+        </button>
+      </div>
+
+      <p className="mt-8 text-gray-500 text-sm">
+        © 2025 Sou Matome Kanji N2 Learning App
+      </p>
+    </main>
   );
 }

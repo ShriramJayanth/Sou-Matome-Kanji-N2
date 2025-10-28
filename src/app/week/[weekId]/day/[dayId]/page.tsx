@@ -1,0 +1,120 @@
+'use client';
+
+import React, { useEffect, useState } from 'react';
+
+interface Jukugo {
+  kanji: string;
+  reading: string;
+  meaning: string;
+}
+
+export default function QuizPage() {
+  const [jukugos, setJukugos] = useState<Jukugo[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answer, setAnswer] = useState('');
+  const [feedback, setFeedback] = useState<'correct' | 'wrong' | null>(null);
+  const [showMeaning, setShowMeaning] = useState(false);
+
+  // Retrieve query params (week/day)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const week = params.get('week') || '1';
+    const day = params.get('day') || '1';
+
+    fetch(`/data/week${week}/day${day}.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        const shuffled = data.jukugo.sort(() => Math.random() - 0.5);
+        setJukugos(shuffled);
+      });
+  }, []);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!jukugos.length) return;
+
+    const correct = jukugos[currentIndex].reading.trim();
+    if (answer.trim() === correct) {
+      setFeedback('correct');
+      setShowMeaning(true);
+    } else {
+      setFeedback('wrong');
+    }
+  };
+
+  const handleNext = () => {
+    setAnswer('');
+    setFeedback(null);
+    setShowMeaning(false);
+    setCurrentIndex((prev) => prev + 1);
+  };
+
+  if (!jukugos.length) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-yellow-700 text-xl">
+        Loading quiz...
+      </div>
+    );
+  }
+
+  if (currentIndex >= jukugos.length) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center text-yellow-700">
+        <h1 className="text-3xl font-bold mb-4">🎉 All done!</h1>
+        <p className="text-lg">You’ve completed this quiz.</p>
+      </div>
+    );
+  }
+
+  const current = jukugos[currentIndex];
+
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-yellow-100 to-yellow-50 text-center p-6">
+      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 border border-yellow-200">
+        <h1 className="text-6xl font-bold mb-8 text-yellow-700">{current.kanji}</h1>
+
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={answer}
+            onChange={(e) => setAnswer(e.target.value)}
+            placeholder="Enter reading (hiragana)"
+            className="w-full text-center text-lg border-2 border-yellow-300 rounded-xl py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+          />
+
+          <button
+            type="submit"
+            className="mt-4 w-full bg-yellow-500 text-white py-2 rounded-xl hover:bg-yellow-600 transition"
+          >
+            Submit
+          </button>
+        </form>
+
+        {feedback === 'wrong' && (
+          <p className="mt-4 text-red-500 font-semibold">❌ Try again!</p>
+        )}
+
+        {feedback === 'correct' && (
+          <div className="mt-6">
+            <p className="text-green-600 font-bold text-lg">✅ Correct!</p>
+            {showMeaning && (
+              <p className="mt-2 text-gray-700 text-base">
+                Meaning: <span className="font-semibold">{current.meaning}</span>
+              </p>
+            )}
+            <button
+              onClick={handleNext}
+              className="mt-4 bg-yellow-400 text-yellow-900 px-4 py-2 rounded-lg hover:bg-yellow-500 transition"
+            >
+              Next →
+            </button>
+          </div>
+        )}
+      </div>
+
+      <p className="mt-6 text-sm text-yellow-600">
+        Progress: {currentIndex + 1}/{jukugos.length}
+      </p>
+    </div>
+  );
+}
