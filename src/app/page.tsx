@@ -9,7 +9,8 @@ export default function HomePage() {
   const [day, setDay] = useState("");
 
   const handleStart = () => {
-    if (!week) return alert("Please select a week");
+    if (!week || !day) return alert("Please select valid week and day.");
+    console.log("Selected Week:", week, "Day:", day);
     const dayPath = day ? `/week/${week}/day/${day}` : `/week/${week}/all`;
     console.log("Navigating to:", dayPath);
     router.push(dayPath);
@@ -20,7 +21,7 @@ export default function HomePage() {
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-yellow-50 to-yellow-100 flex flex-col justify-center items-center px-6">
+    <main className="min-h-screen bg-linear-to-br from-yellow-50 to-yellow-100 flex flex-col justify-center items-center px-6">
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md border border-yellow-200">
         <h1 className="text-3xl font-bold text-center text-yellow-700 mb-6">
           N2 Sou Matome Kanji Helper

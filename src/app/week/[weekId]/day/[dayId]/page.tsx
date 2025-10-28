@@ -15,7 +15,6 @@ export default function QuizPage() {
   const [feedback, setFeedback] = useState<'correct' | 'wrong' | null>(null);
   const [showMeaning, setShowMeaning] = useState(false);
 
-  // Retrieve query params (week/day)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const week = params.get('week') || '1';
@@ -58,19 +57,27 @@ export default function QuizPage() {
   }
 
   if (currentIndex >= jukugos.length) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center text-yellow-700">
-        <h1 className="text-3xl font-bold mb-4">🎉 All done!</h1>
-        <p className="text-lg">You’ve completed this quiz.</p>
-      </div>
-    );
-  }
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-b from-yellow-100 to-yellow-50 text-yellow-800 text-center p-6">
+      <h1 className="text-4xl font-bold mb-4">🎉 All done!</h1>
+      <p className="text-lg mb-8">You’ve completed this quiz. Great job!</p>
+
+      <button
+        onClick={() => (window.location.href = '/')}
+        className="bg-yellow-500 text-white px-6 py-3 rounded-xl text-lg hover:bg-yellow-600 transition-all shadow-md"
+      >
+        ⬅️ Return to Home
+      </button>
+    </div>
+  );
+}
+
 
   const current = jukugos[currentIndex];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-yellow-100 to-yellow-50 text-center p-6">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 border border-yellow-200">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-linear-to-b from-yellow-100 to-yellow-50 text-center p-6">
+      <div className="w-[50%] bg-white rounded-2xl shadow-xl p-8 border border-yellow-200">
         <h1 className="text-6xl font-bold mb-8 text-yellow-700">{current.kanji}</h1>
 
         <form onSubmit={handleSubmit}>
