@@ -1,5 +1,5 @@
 {
-  "title": "Week 1 - Day 1",
+  "title": "Week1 Day1",
   "jukugo": [
     {
       "kanji": "禁止",
@@ -79,6 +79,91 @@
       "kanji": "係員",
       "reading": "かかりいん",
       "meaning": "person in charge"
+    },
+
+
+    {
+      "kanji": "転落",
+      "reading": "てんらく",
+      "meaning": "a fall"
+    },
+    {
+      "kanji": "落第",
+      "reading": "らくだい",
+      "meaning": "failing / repeating a course"
+    },
+    {
+      "kanji": " 落ちる",
+      "reading": "おちる",
+      "meaning": "fall"
+    },
+    {
+      "kanji": "落とす",
+      "reading": "おとす",
+      "meaning": "drop"
+    },
+    {
+      "kanji": "落石",
+      "reading": "らくせき",
+      "meaning": "falling rock"
+    },
+    {
+      "kanji": "磁石",
+      "reading": "じしゃく",
+      "meaning": "magnet / compass"
+    },
+    {
+      "kanji": "石",
+      "reading": "いし",
+      "meaning": "stone"
+    },
+    {
+      "kanji": "飛行場",
+      "reading": "ひこうじょう",
+      "meaning": "airport"
+    },
+    {
+      "kanji": "飛ぶ",
+      "reading": "とぶ",
+      "meaning": "fly"
+    },
+    {
+      "kanji": "飛び出し",
+      "reading": "とびだし",
+      "meaning": "run out suddenly"
+    },
+    {
+      "kanji": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "meaning": "parking lot"
+    },{
+      "kanji": "駐車",
+      "reading": "ちゅうしゃ",
+      "meaning": "parking"
+    },{
+      "kanji": "四捨五入",
+      "reading": "ししゃごにゅう",
+      "meaning": "rounding off to nearest decimal"
+    },{
+      "kanji": "捨てる",
+      "reading": "すてる",
+      "meaning": "throw away"
+    },{
+      "kanji": "遊泳",
+      "reading": "ゆうえい",
+      "meaning": "swimming"
+    },{
+      "kanji": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning": "play"
+    },{
+      "kanji": "水泳",
+      "reading": "すいえい",
+      "meaning": "swimming"
+    },{
+      "kanji": "泳ぐ",
+      "reading": "およぐ",
+      "meaning": "swim"
     }
   ]
 }
