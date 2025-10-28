@@ -2,54 +2,83 @@
   "title": "Week 1 - Day 1",
   "jukugo": [
     {
-      "kanji": "人間",
-      "reading": "にんげん",
-      "meaning": "human being"
+      "kanji": "禁止",
+      "reading": "きんし",
+      "meaning": "prohibition"
     },
     {
-      "kanji": "人生",
-      "reading": "じんせい",
-      "meaning": "life"
+      "kanji": "禁煙",
+      "reading": "きんえん",
+      "meaning": "no smoking"
     },
     {
-      "kanji": "人口",
-      "reading": "じんこう",
-      "meaning": "population"
+      "kanji": " 煙",
+      "reading": "けむり",
+      "meaning": "smoke"
     },
     {
-      "kanji": "人種",
-      "reading": "じんしゅ",
-      "meaning": "race / ethnicity"
+      "kanji": "安静（な）",
+      "reading": "あんせい（な）",
+      "meaning": "quietly"
     },
     {
-      "kanji": "体力",
-      "reading": "たいりょく",
-      "meaning": "physical strength"
+      "kanji": "静か（な）",
+      "reading": "しずか（な）",
+      "meaning": "quiet"
     },
     {
-      "kanji": "体温",
-      "reading": "たいおん",
-      "meaning": "body temperature"
+      "kanji": "静まる",
+      "reading": "しずまる",
+      "meaning": "become quiet"
     },
     {
-      "kanji": "体重",
-      "reading": "たいじゅう",
-      "meaning": "body weight"
+      "kanji": "危機",
+      "reading": "きき",
+      "meaning": "crisis"
     },
     {
-      "kanji": "人形",
-      "reading": "にんぎょう",
-      "meaning": "doll"
+      "kanji": "危ない",
+      "reading": "あぶない",
+      "meaning": "danger"
     },
     {
-      "kanji": "人体",
-      "reading": "じんたい",
-      "meaning": "human body"
+      "kanji": "危うい",
+      "reading": "あやうい",
+      "meaning": "dangerous / narrow"
     },
     {
-      "kanji": "全体",
-      "reading": "ぜんたい",
-      "meaning": "whole / entire"
+      "kanji": "危険（な）",
+      "reading": "きけん（な）",
+      "meaning": "danger"
+    },
+    {
+      "kanji": "険しい",
+      "reading": "けわしい",
+      "meaning": "steep"
+    },{
+      "kanji": "関心",
+      "reading": "かんしん",
+      "meaning": "interest"
+    },{
+      "kanji": "（〜に）関する",
+      "reading": "（〜に）かんする",
+      "meaning": "related to"
+    },{
+      "kanji": "関わる",
+      "reading": "かかわる",
+      "meaning": "have to do with"
+    },{
+      "kanji": "関係",
+      "reading": "かんけい",
+      "meaning": "a relation / connection"
+    },{
+      "kanji": "係",
+      "reading": "かかり",
+      "meaning": "person in charge"
+    },{
+      "kanji": "係員",
+      "reading": "かかりいん",
+      "meaning": "person in charge"
     }
   ]
 }
