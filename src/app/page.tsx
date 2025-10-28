@@ -24,7 +24,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-linear-to-br from-yellow-50 to-yellow-100 flex flex-col justify-center items-center px-6">
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md border border-yellow-200">
         <h1 className="text-3xl font-bold text-center text-yellow-700 mb-6">
-          N2 Sou Matome Kanji Helper
+          N2 Sou Matome Kanji
         </h1>
 
       
@@ -83,7 +83,7 @@ export default function HomePage() {
       </div>
 
       <p className="mt-8 text-gray-500 text-sm">
-        © 2025 Sou Matome Kanji N2 Learning App
+        © 富士山😎
       </p>
     </main>
   );
