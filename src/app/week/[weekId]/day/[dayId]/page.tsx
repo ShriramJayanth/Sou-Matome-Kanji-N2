@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter,useParams } from "next/navigation";
 
 interface Jukugo {
   kanji: string;
@@ -11,6 +11,7 @@ interface Jukugo {
 
 export default function QuizPage() {
   const router = useRouter();
+  const params = useParams();
   const [jukugos, setJukugos] = useState<Jukugo[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -18,9 +19,8 @@ export default function QuizPage() {
   const [showMeaning, setShowMeaning] = useState(false);
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const week = params.get("week") || "1";
-    const day = params.get("day") || "1";
+    const week = params.weekId;
+    const day = params.dayId;
 
     fetch(`/data/week${week}/day${day}.json`)
       .then((res) => res.json())
@@ -65,7 +65,7 @@ export default function QuizPage() {
         <p className="text-lg mb-8">You’ve completed this quiz. Great job!</p>
 
         <button
-          onClick={() => (window.location.href = "/")}
+          onClick={() => (router.push("/"))}
           className="bg-yellow-500 text-white px-6 py-3 rounded-xl text-lg hover:bg-yellow-600 transition-all shadow-md"
         >
           ⬅️ Return to Home
