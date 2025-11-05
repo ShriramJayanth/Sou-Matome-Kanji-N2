@@ -1,0 +1,1355 @@
+{
+  "title": "Week2 Day5",
+  "jukugo": [
+    {
+      "kanji": "普通",
+      "reading": "ふつう",
+      "meaning": "ordinary"
+    },
+    {
+      "kanji": "普段",
+      "reading": "ふだん",
+      "meaning": "usually"
+    },
+    {
+      "kanji": "回数券",
+      "reading": "かいすうけん",
+      "meaning": "a (book of) commuter tickets"
+    },
+    {
+      "kanji": "乗車券",
+      "reading": "じょうしゃけん",
+      "meaning": "a boarding ticket"
+    },
+    {
+      "kanji": "旅券",
+      "reading": "りょけん",
+      "meaning": "passport"
+    },
+    {
+      "kanji": "発券",
+      "reading": "はっけん",
+      "meaning": "issue of ticket"
+    },
+    {
+      "kanji": "数字",
+      "reading": "すうじ",
+      "meaning": "number"
+    },
+    {
+      "kanji": "数学",
+      "reading": "すうがく",
+      "meaning": "maths"
+    },
+    {
+      "kanji": "点数",
+      "reading": "てんすう",
+      "meaning": "points / score"
+    },
+    {
+      "kanji": "数える",
+      "reading": "かぞえる",
+      "meaning": "count"
+    },
+    {
+      "kanji": "飛行機",
+      "reading": "ひこうき",
+      "meaning": "airport"
+    },
+    {
+      "kanji": "交通機関",
+      "reading": "こうつうきかん",
+      "meaning": "a means of transport"
+    },
+    {
+      "kanji": "自動券売機",
+      "reading": "じどうけんばいき",
+      "meaning": "automatic ticket machine"
+    },
+    {
+      "kanji": "危機",
+      "reading": "きき",
+      "meaning": "crisis"
+    },
+    {
+      "kanji": "復習",
+      "reading": "ふくしゅう",
+      "meaning": "revision"
+    },
+    {
+      "kanji": "往復",
+      "reading": "おうふく",
+      "meaning": "a round trip"
+    },
+    {
+      "kanji": "回復",
+      "reading": "かいふく",
+      "meaning": "recovery"
+    },
+    {
+      "kanji": "破片",
+      "reading": "はへん",
+      "meaning": "fragments"
+    },
+    {
+      "kanji": "片道切符",
+      "reading": "かたみちきっぷ",
+      "meaning": "one way ticket"
+    },
+    {
+      "kanji": "片付ける",
+      "reading": "かたづける",
+      "meaning": "tidy up"
+    },
+    {
+      "kanji": "片〜",
+      "reading": "かた",
+      "meaning": "one side"
+    },
+    {
+      "kanji": "〜枚",
+      "reading": "まい",
+      "meaning": "counter of flat objects"
+    },
+    {
+      "kanji": "枚数",
+      "reading": "まいすう",
+      "meaning": "number of (flat objects)"
+    },
+    {
+      "kanji": "期間",
+      "reading": "きかん",
+      "meaning": "a period of time"
+    },
+    {
+      "kanji": "定期",
+      "reading": "ていき",
+      "meaning": "a fixed period of time"
+    },
+    {
+      "kanji": "定期券",
+      "reading": "ていきけん",
+      "meaning": "a commuter pass"
+    },
+    {
+      "kanji": "販売",
+      "reading": "はんばい",
+      "meaning": "selling"
+    },
+    {
+      "kanji": "自動販売機",
+      "reading": "じどうはんばいき",
+      "meaning": "vending machine"
+    },
+    {
+      "kanji": "指定席",
+      "reading": "していせき",
+      "meaning": "reserved seat"
+    },
+    {
+      "kanji": "指",
+      "reading": "ゆび",
+      "meaning": "finger"
+    },
+    {
+      "kanji": "指す",
+      "reading": "さす",
+      "meaning": "point"
+    },
+    {
+      "kanji": "調整",
+      "reading": "ちょうせい",
+      "meaning": "adjustment"
+    },
+    {
+      "kanji": "調子",
+      "reading": "ちょうし",
+      "meaning": "condition"
+    },
+    {
+      "kanji": "調べる",
+      "reading": "しらべる",
+      "meaning": "look up something"
+    },
+    {
+      "kanji": "整理券",
+      "reading": "せいりけん",
+      "meaning": "numbered ticket"
+    },
+    {
+      "kanji": "整備",
+      "reading": "せいび",
+      "meaning": "maintenance"
+    },
+    {
+      "kanji": "整う",
+      "reading": "ととのう",
+      "meaning": "be tidy"
+    },
+    {
+      "kanji": "表",
+      "reading": "ひょう",
+      "meaning": "table (in written docs)"
+    },
+    {
+      "kanji": "時刻表",
+      "reading": "じこくひょう",
+      "meaning": "a timetable"
+    },
+    {
+      "kanji": "発表",
+      "reading": "はっぴょう",
+      "meaning": "an announcement"
+    },
+    {
+      "kanji": "表",
+      "reading": "おもて",
+      "meaning": "surface"
+    },
+    {
+      "kanji": "表す",
+      "reading": "あらわす",
+      "meaning": "show / express"
+    },
+    {
+      "kanji": "表示",
+      "reading": "ひょうじ",
+      "meaning": "indication / expression"
+    },
+    {
+      "kanji": "指示",
+      "reading": "しじ",
+      "meaning": "instruction"
+    },
+    {
+      "kanji": "掲示",
+      "reading": "けいじ",
+      "meaning": "notice"
+    },
+    {
+      "kanji": "示す",
+      "reading": "しめす",
+      "meaning": "show / point out"
+    },
+    {
+      "kanji": "現金",
+      "reading": "げんきん",
+      "meaning": "cash"
+    },
+    {
+      "kanji": "表現",
+      "reading": "ひょうげん",
+      "meaning": "expression"
+    },
+    {
+      "kanji": "現れる",
+      "reading": "あらわれる",
+      "meaning": "appear"
+    },
+    {
+      "kanji": "支持",
+      "reading": "しじ",
+      "meaning": "support"
+    },
+    {
+      "kanji": "支える",
+      "reading": "ささえる",
+      "meaning": "support"
+    },
+    {
+      "kanji": "払う",
+      "reading": "はらう",
+      "meaning": "pay / sweep away"
+    },
+    {
+      "kanji": "支払う",
+      "reading": "しはらう",
+      "meaning": "pay"
+    },
+    {
+      "kanji": "支払機",
+      "reading": "しはらいき",
+      "meaning": "a machine for dispensing cash"
+    },
+    {
+      "kanji": "預金",
+      "reading": "よきん",
+      "meaning": "a deposit"
+    },
+    {
+      "kanji": "預ける",
+      "reading": "あずける",
+      "meaning": "entrust"
+    },
+    {
+      "kanji": "預かる",
+      "reading": "あずかる",
+      "meaning": "keep / take charge of"
+    },
+    {
+      "kanji": "払い戻し",
+      "reading": "はらいもどし",
+      "meaning": "refund"
+    },
+    {
+      "kanji": "戻る",
+      "reading": "もどる",
+      "meaning": "return"
+    },
+    {
+      "kanji": "残高照会",
+      "reading": "ざんだかしょうかい",
+      "meaning": "an acc balance enquiry"
+    },
+    {
+      "kanji": "残る",
+      "reading": "のこる",
+      "meaning": "remain"
+    },
+    {
+      "kanji": "残す",
+      "reading": "のこす",
+      "meaning": "leave behind"
+    },
+    {
+      "kanji": "照明",
+      "reading": "しょうめい",
+      "meaning": "illumination / light"
+    },
+    {
+      "kanji": "対照的",
+      "reading": "たいしょうてき",
+      "meaning": "contrastingly"
+    },
+    {
+      "kanji": "照らす",
+      "reading": "てらす",
+      "meaning": "light up"
+    },
+    {
+      "kanji": "支店",
+      "reading": "してん",
+      "meaning": "branch shop"
+    },
+    {
+      "kanji": "硬貨",
+      "reading": "こうか",
+      "meaning": "a coin"
+    },
+    {
+      "kanji": "硬い",
+      "reading": "かたい",
+      "meaning": "hard"
+    },
+    {
+      "kanji": "貨物",
+      "reading": "かもつ",
+      "meaning": "freight"
+    },
+    {
+      "kanji": "通貨",
+      "reading": "つうか",
+      "meaning": "currency"
+    },
+    {
+      "kanji": "確定",
+      "reading": "かくてい",
+      "meaning": "determination"
+    },
+    {
+      "kanji": "明確（な）",
+      "reading": "めいかく",
+      "meaning": "clear"
+    },
+    {
+      "kanji": "確か（な）",
+      "reading": "たしか",
+      "meaning": "certain"
+    },
+    {
+      "kanji": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "confirm / verify"
+    },
+    {
+      "kanji": "確認",
+      "reading": "かくにん",
+      "meaning": "confirm"
+    },
+    {
+      "kanji": "認める",
+      "reading": "みとめる",
+      "meaning": "approve"
+    },
+    {
+      "kanji": "違法",
+      "reading": "いほう",
+      "meaning": "illegal"
+    },
+    {
+      "kanji": "違い",
+      "reading": "ちがい",
+      "meaning": "difference"
+    },
+    {
+      "kanji": "間違える",
+      "reading": "まちがえる",
+      "meaning": "make a mistake"
+    },
+    {
+      "kanji": "間違い",
+      "reading": "まちがい",
+      "meaning": "mistake"
+    },
+    {
+      "kanji": "取材",
+      "reading": "しゅざい",
+      "meaning": "collection of data"
+    },
+    {
+      "kanji": "取る",
+      "reading": "とる",
+      "meaning": "take"
+    },
+    {
+      "kanji": "取り消し",
+      "reading": "とりけし",
+      "meaning": "a cancellation"
+    },
+    {
+      "kanji": "書き取り",
+      "reading": "かきとり",
+      "meaning": "dictation"
+    },
+    {
+      "kanji": "聞き取り",
+      "reading": "ききとり",
+      "meaning": "listening ability"
+    },
+    {
+      "kanji": "消去",
+      "reading": "しょうきょ",
+      "meaning": "elimination"
+    },
+    {
+      "kanji": "消える",
+      "reading": "きえる",
+      "meaning": "be estinguished"
+    },
+    {
+      "kanji": "消す",
+      "reading": "けす",
+      "meaning": "estinguish"
+    },
+    {
+      "kanji": "消しゴム",
+      "reading": "けしごむ",
+      "meaning": "eraser"
+    },
+    {
+    "kanji": "温度",
+    "reading": "おんど",
+    "meaning": "temperature"
+  },
+  {
+    "kanji": "体温計",
+    "reading": "たいおんけい",
+    "meaning": "a thermometer"
+  },
+  {
+    "kanji": "温室",
+    "reading": "おんしつ",
+    "meaning": "greenhouse"
+  },
+  {
+    "kanji": "温かい",
+    "reading": "あたたかい",
+    "meaning": "warm"
+  },
+  {
+    "kanji": "冷静（な）",
+    "reading": "れいせい",
+    "meaning": "calm"
+  },
+  {
+    "kanji": "冷たい",
+    "reading": "つめたい",
+    "meaning": "cold"
+  },
+  {
+    "kanji": "冷える",
+    "reading": "ひえる",
+    "meaning": "become cold"
+  },
+  {
+    "kanji": "冷やす",
+    "reading": "ひやす",
+    "meaning": "cool"
+  },
+  {
+    "kanji": "冷める",
+    "reading": "さめる",
+    "meaning": "cool down"
+  },
+  {
+    "kanji": "冷ます",
+    "reading": "さます",
+    "meaning": "cool something"
+  },
+  {
+    "kanji": "緑茶",
+    "reading": "りょくちゃ",
+    "meaning": "green tea"
+  },
+  {
+    "kanji": "新緑",
+    "reading": "しんりょく",
+    "meaning": "fresh greenery"
+  },
+  {
+    "kanji": "緑",
+    "reading": "みどり",
+    "meaning": "green"
+  },
+  {
+    "kanji": "紅茶",
+    "reading": "こうちゃ",
+    "meaning": "tea"
+  },
+  {
+    "kanji": "口紅",
+    "reading": "くちべに",
+    "meaning": "lipstick"
+  },
+  {
+    "kanji": "水玉",
+    "reading": "みずたま",
+    "meaning": "a drop of water"
+  },
+  {
+    "kanji": "玉",
+    "reading": "たま",
+    "meaning": "a ball / sphere"
+  },
+  {
+    "kanji": "十円玉",
+    "reading": "じゅうえんだま",
+    "meaning": "10-yen coin"
+  },
+  {
+    "kanji": "返事",
+    "reading": "へんじ",
+    "meaning": "a reply"
+  },
+  {
+    "kanji": "返却",
+    "reading": "へんきゃく",
+    "meaning": "return (something)"
+  },
+  {
+    "kanji": "返金",
+    "reading": "へんきん",
+    "meaning": "a refund"
+  },
+  {
+    "kanji": "返す",
+    "reading": "かえす",
+    "meaning": "return (something)"
+  },
+  {
+    "kanji": "団体",
+    "reading": "だんたい",
+    "meaning": "a group / org"
+  },
+  {
+    "kanji": "集団",
+    "reading": "しゅうだん",
+    "meaning": "a group"
+  },
+  {
+    "kanji": "団地",
+    "reading": "だんち",
+    "meaning": "a large housing / apartment complex"
+  },
+  {
+    "kanji": "布団",
+    "reading": "ふとん",
+    "meaning": "futon"
+  },
+  {
+    "kanji": "一般",
+    "reading": "いっぱん",
+    "meaning": "the general"
+  },
+  {
+    "kanji": "全般",
+    "reading": "ぜんぱん",
+    "meaning": "the whole"
+  },
+  {
+    "kanji": "幼児",
+    "reading": "ようじ",
+    "meaning": "baby"
+  },
+  {
+    "kanji": "幼い",
+    "reading": "おさない",
+    "meaning": "very young / childish"
+  },
+  {
+    "kanji": "小児科",
+    "reading": "しょうにか",
+    "meaning": "pediatrics department"
+  },
+  {
+    "kanji": "児童",
+    "reading": "じどう",
+    "meaning": "overall children"
+  },
+  {
+    "kanji": "〜歳",
+    "reading": "さい",
+    "meaning": "years old"
+  },
+  {
+    "kanji": "未定",
+    "reading": "みてい",
+    "meaning": "undecided"
+  },
+  {
+    "kanji": "未来",
+    "reading": "みらい",
+    "meaning": "future"
+  },
+  {
+    "kanji": "未知",
+    "reading": "みち",
+    "meaning": "unknown"
+  },
+  {
+    "kanji": "未〜",
+    "reading": "み　",
+    "meaning": "not yet"
+  },
+  {
+    "kanji": "未満",
+    "reading": "みまん",
+    "meaning": "less than"
+  },
+  {
+    "kanji": "満員",
+    "reading": "まんいん",
+    "meaning": "full (of people)"
+  },
+  {
+    "kanji": "満足",
+    "reading": "まんぞく",
+    "meaning": "satisfaction"
+  },
+  {
+    "kanji": "満ちる",
+    "reading": "みちる",
+    "meaning": "be filled with"
+  },
+  {
+    "kanji": "老人",
+    "reading": "ろうじん",
+    "meaning": "an old person"
+  },
+  {
+    "kanji": "年老いた",
+    "reading": "としおいた",
+    "meaning": "aged"
+  },
+  {
+      "kanji": "設定",
+      "reading": "せってい",
+      "meaning": "setting"
+    },
+    {
+      "kanji": "設計",
+      "reading": "せっけい",
+      "meaning": "design / plan"
+    },
+    {
+      "kanji": "設備",
+      "reading": "せつび",
+      "meaning": "equipment"
+    },
+    {
+      "kanji": "換気",
+      "reading": "かんき",
+      "meaning": "ventilation"
+    },
+    {
+      "kanji": "運転切換",
+      "reading": "うんてんきりかえ",
+      "meaning": "change of mode of transport"
+    },
+    {
+      "kanji": "乗り換え",
+      "reading": "のりかえ",
+      "meaning": "change of trains"
+    },
+    {
+      "kanji": "風向",
+      "reading": "ふうこう",
+      "meaning": "wind direction"
+    },
+    {
+      "kanji": "風の向き",
+      "reading": "かぜのむき",
+      "meaning": "wind direction"
+    },
+    {
+      "kanji": "向かい",
+      "reading": "むかい",
+      "meaning": "the opposite side"
+    },
+    {
+      "kanji": "向こう",
+      "reading": "むこう",
+      "meaning": "over there / beyond"
+    },
+    {
+      "kanji": "停止",
+      "reading": "ていし",
+      "meaning": "stop"
+    },
+    {
+      "kanji": "停電",
+      "reading": "ていでん",
+      "meaning": "electricty blackout"
+    },
+    {
+      "kanji": "停車",
+      "reading": "ていしゃ",
+      "meaning": "stop a vehicle"
+    },
+    {
+      "kanji": "暖房",
+      "reading": "だんぼう",
+      "meaning": "heater"
+    },
+    {
+      "kanji": "温暖（な）",
+      "reading": "おんだん",
+      "meaning": "temperate"
+    },
+    {
+      "kanji": "温かい",
+      "reading": "あたたかい",
+      "meaning": "warm"
+    },
+    {
+      "kanji": "除湿",
+      "reading": "じょしつ",
+      "meaning": "dehumidification"
+    },
+    {
+      "kanji": "掃除",
+      "reading": "そうじ",
+      "meaning": "cleaning"
+    },
+    {
+      "kanji": "除く",
+      "reading": "のぞく",
+      "meaning": "remove"
+    },
+    {
+      "kanji": "湿度",
+      "reading": "しつど",
+      "meaning": "humidity"
+    },
+    {
+      "kanji": "湿気",
+      "reading": "しっけ",
+      "meaning": "humidity / moisture"
+    },
+    {
+      "kanji": "湿る",
+      "reading": "しめる",
+      "meaning": "become damp / moist"
+    },
+    {
+      "kanji": "標準",
+      "reading": "ひょうじゅん",
+      "meaning": "standard"
+    },
+    {
+      "kanji": "倍",
+      "reading": "ばい",
+      "meaning": "double"
+    },
+    {
+      "kanji": "〜倍",
+      "reading": "ばい",
+      "meaning": "times"
+    },
+    {
+      "kanji": "〜巻",
+      "reading": "かん",
+      "meaning": "volume (as in books vol1, vol2..)"
+    },
+    {
+      "kanji": "巻く",
+      "reading": "まく",
+      "meaning": "wind / roll up"
+    },
+    {
+      "kanji": "巻き戻し",
+      "reading": "まきもどし",
+      "meaning": "rewinding"
+    },
+    {
+      "kanji": "録画",
+      "reading": "ろくが",
+      "meaning": "recording (vid)"
+    },
+    {
+      "kanji": "録音",
+      "reading": "ろくおん",
+      "meaning": "recording (aud)"
+    },
+    {
+      "kanji": "音量",
+      "reading": "おんりょう",
+      "meaning": "sound volume"
+    },
+    {
+      "kanji": "風量",
+      "reading": "ふうりょう",
+      "meaning": "air strength"
+    },
+    {
+      "kanji": "分量",
+      "reading": "ぶんりょう",
+      "meaning": "quantity"
+    },
+    {
+      "kanji": "数量",
+      "reading": "すうりょう",
+      "meaning": "amount"
+    },
+    {
+      "kanji": "量る",
+      "reading": "はかる",
+      "meaning": "measure"
+    },
+    {
+      "kanji": "予定",
+      "reading": "よてい",
+      "meaning": "plan / schedule"
+    },
+    {
+      "kanji": "予習",
+      "reading": "よしゅう",
+      "meaning": "prep (of lessons)"
+    },
+    {
+      "kanji": "予備",
+      "reading": "よび",
+      "meaning": "a reserve / spare"
+    },
+    {
+      "kanji": "予算",
+      "reading": "よさん",
+      "meaning": "budget / estimate"
+    },
+    {
+      "kanji": "予約",
+      "reading": "よやく",
+      "meaning": "an appointment / reservation"
+    },
+    {
+      "kanji": "約〜",
+      "reading": "やく",
+      "meaning": "approximately"
+    },
+    {
+      "kanji": "約束",
+      "reading": "やくそく",
+      "meaning": "a promise"
+    },
+    {
+      "kanji": "地帯",
+      "reading": "ちたい",
+      "meaning": "a region / area"
+    },
+    {
+      "kanji": "携帯電話",
+      "reading": "けいたいでんわ",
+      "meaning": "a cell phone"
+    },
+    {
+      "kanji": "温帯",
+      "reading": "おんたい",
+      "meaning": "temperate zone"
+    },
+    {
+      "kanji": "帯",
+      "reading": "おび",
+      "meaning": "belt"
+    },
+    {
+      "kanji": "保温",
+      "reading": "ほおん",
+      "meaning": "retention of warmth"
+    },
+    {
+      "kanji": "保湿",
+      "reading": "ほしつ",
+      "meaning": "retention of moisture"
+    },
+    {
+      "kanji": "保険",
+      "reading": "ほけん",
+      "meaning": "insurance"
+    },
+    {
+      "kanji": "保つ",
+      "reading": "たもつ",
+      "meaning": "keep / maintain"
+    },
+    {
+      "kanji": "保留",
+      "reading": "ほりゅう",
+      "meaning": "a reservation / suspension"
+    },
+    {
+      "kanji": "留学",
+      "reading": "りゅうがく",
+      "meaning": "studying abroad"
+    },
+    {
+      "kanji": "停留所",
+      "reading": "ていりゅうじょ",
+      "meaning": "a (bus) stop / station"
+    },
+    {
+      "kanji": "書留",
+      "reading": "かきとめ",
+      "meaning": "registration (registered mail)"
+    },
+    {
+      "kanji": "保守的（な）",
+      "reading": "ほしゅてき",
+      "meaning": "conservative"
+    },
+    {
+      "kanji": "留守",
+      "reading": "るす",
+      "meaning": "absence (from home)"
+    },
+    {
+      "kanji": "守る",
+      "reading": "まもる",
+      "meaning": "protect"
+    },
+    {
+      "kanji": "お守り",
+      "reading": "おまもり",
+      "meaning": "a good luck charm"
+    },
+    {
+      "kanji": "伝言",
+      "reading": "でんごん",
+      "meaning": "a message"
+    },
+    {
+      "kanji": "伝える",
+      "reading": "つたえる",
+      "meaning": "convey"
+    },
+    {
+      "kanji": "手伝う",
+      "reading": "てつだう",
+      "meaning": "help"
+    },
+    {
+      "kanji": "返済",
+      "reading": "へんさい",
+      "meaning": "repayment"
+    },
+    {
+      "kanji": "済む",
+      "reading": "すむ",
+      "meaning": "be finished / over"
+    },
+    {
+      "kanji": "〜済み",
+      "reading": "すみ",
+      "meaning": "completed"
+    },
+    {
+      "kanji": "用件",
+      "reading": "ようけん",
+      "meaning": "a business / matter"
+    },
+    {
+      "kanji": "件名",
+      "reading": "けんめい",
+      "meaning": "subject"
+    },
+    {
+      "kanji": "事件",
+      "reading": "じけん",
+      "meaning": "an incident"
+    },
+    {
+      "kanji": "通信",
+      "reading": "つうしん",
+      "meaning": "correspondence"
+    },
+    {
+      "kanji": "自信",
+      "reading": "じしん",
+      "meaning": "confidence"
+    },
+    {
+      "kanji": "信じる",
+      "reading": "しんじる",
+      "meaning": "believe"
+    },
+    {
+      "kanji": "着信履歴",
+      "reading": "ちゃくしんりれき",
+      "meaning": "record of calls recieved"
+    },
+    {
+      "kanji": "履歴書",
+      "reading": "りれきしょ",
+      "meaning": "a resume"
+    },
+    {
+      "kanji": "歴史",
+      "reading": "れきし",
+      "meaning": "history"
+    },
+    {
+      "kanji": "受信箱",
+      "reading": "じゅしんばこ",
+      "meaning": "inbox"
+    },
+    {
+      "kanji": "送信箱",
+      "reading": "そうしんばこ",
+      "meaning": "outbox"
+    },
+    {
+      "kanji": "ゴミ箱",
+      "reading": "ごみばこ",
+      "meaning": "recycle bin"
+    },
+    {
+      "kanji": "新規",
+      "reading": "しんき",
+      "meaning": "new / fresh"
+    },
+    {
+      "kanji": "規定",
+      "reading": "きてい",
+      "meaning": "regulation"
+    },
+    {
+      "kanji": "変換",
+      "reading": "へんかん",
+      "meaning": "conversion"
+    },
+    {
+      "kanji": "大変（な）",
+      "reading": "たいへん",
+      "meaning": "very / serious"
+    },
+    {
+      "kanji": "変わる",
+      "reading": "かわる",
+      "meaning": "change"
+    },
+    {
+      "kanji": "変える",
+      "reading": "かえる",
+      "meaning": "change (something)"
+    },
+    {
+      "kanji": "選択",
+      "reading": "せんたく",
+      "meaning": "choice"
+    },
+    {
+      "kanji": "選手",
+      "reading": "せんしゅ",
+      "meaning": "athlete / player"
+    },
+    {
+      "kanji": "選考",
+      "reading": "せんこう",
+      "meaning": "selection"
+    },
+    {
+      "kanji": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "choose"
+    },
+    {
+      "kanji": "決定",
+      "reading": "けってい",
+      "meaning": "decision"
+    },
+    {
+      "kanji": "決める",
+      "reading": "きめる",
+      "meaning": "decide (something)"
+    },
+    {
+      "kanji": "決まる",
+      "reading": "きまる",
+      "meaning": "be decided"
+    },
+    {
+      "kanji": "登録",
+      "reading": "とうろく",
+      "meaning": "registration"
+    },
+    {
+      "kanji": "登場",
+      "reading": "とうじょう",
+      "meaning": "appearance"
+    },
+    {
+      "kanji": "登山",
+      "reading": "とざん",
+      "meaning": "mountain climbing"
+    },
+    {
+      "kanji": "山登り",
+      "reading": "やまのぼり",
+      "meaning": "mountain climbing"
+    },
+    {
+      "kanji": "編集",
+      "reading": "へんしゅう",
+      "meaning": "editing"
+    },
+    {
+      "kanji": "長編",
+      "reading": "ちょうへん",
+      "meaning": "long work"
+    },
+    {
+      "kanji": "短編",
+      "reading": "たんぺん",
+      "meaning": "short work"
+    },
+    {
+      "kanji": "編み物",
+      "reading": "あみもの",
+      "meaning": "knitting"
+    },
+    {
+      "kanji": "機能",
+      "reading": "きのう",
+      "meaning": "a function"
+    },
+    {
+      "kanji": "可能（な）",
+      "reading": "かのう",
+      "meaning": "possible"
+    },
+    {
+      "kanji": "能力",
+      "reading": "のうりょく",
+      "meaning": "ability"
+    },
+    {
+      "kanji": "修正",
+      "reading": "しゅうせい",
+      "meaning": "amendment / modification"
+    },
+    {
+      "kanji": "修理",
+      "reading": "しゅうり",
+      "meaning": "repairs / fixing"
+    },
+    {
+      "kanji": "修士",
+      "reading": "しゅうし",
+      "meaning": "master degree holder"
+    },
+    {
+      "kanji": "完了",
+      "reading": "かんりょう",
+      "meaning": "finishing / completion"
+    },
+    {
+      "kanji": "完成",
+      "reading": "かんせい",
+      "meaning": "completion / accomplishment"
+    },
+    {
+      "kanji": "完備",
+      "reading": "かんび",
+      "meaning": "being fully equipped"
+    },
+    {
+      "kanji": "終了",
+      "reading": "しゅうりょう",
+      "meaning": "end / expiration"
+    },
+    {
+      "kanji": "修了",
+      "reading": "しゅうりょう",
+      "meaning": "completion (of a course)"
+    },
+    {
+      "kanji": "画像",
+      "reading": "がぞう",
+      "meaning": "a pic / img"
+    },
+    {
+      "kanji": "映像",
+      "reading": "えいぞう",
+      "meaning": "reflection / img / vid"
+    },
+    {
+      "kanji": "現像",
+      "reading": "げんぞう",
+      "meaning": "developing ( a photograph ) "
+    },
+    {
+      "kanji": "書類",
+      "reading": "しょるい",
+      "meaning": "document"
+    },
+    {
+      "kanji": "分類",
+      "reading": "ぶんるい",
+      "meaning": "classification"
+    },
+    {
+      "kanji": "人類",
+      "reading": "じんるい",
+      "meaning": "human race"
+    },
+    {
+      "kanji": "書式",
+      "reading": "しょしき",
+      "meaning": "prescribed form"
+    },
+    {
+      "kanji": "入学式",
+      "reading": "にゅうがくしき",
+      "meaning": "entrance ceremony"
+    },
+    {
+      "kanji": "日本式",
+      "reading": "にほんしき",
+      "meaning": "japanese style"
+    },
+    {
+      "kanji": "正式（な）",
+      "reading": "せいしき",
+      "meaning": "formal / official"
+    },
+    {
+      "kanji": "中央",
+      "reading": "ちゅうおう",
+      "meaning": "center"
+    },
+    {
+      "kanji": "保存",
+      "reading": "ほぞん",
+      "meaning": "preservation"
+    },
+    {
+      "kanji": "生存",
+      "reading": "せいぞん",
+      "meaning": "survival"
+    },
+    {
+      "kanji": "ご存知",
+      "reading": "ごぞんじ",
+      "meaning": "knowing"
+    },
+    {
+      "kanji": "存在",
+      "reading": "そんざい",
+      "meaning": "existance"
+    },
+    {
+      "kanji": "認印",
+      "reading": "みとめいん",
+      "meaning": "a private seal"
+    },
+    {
+      "kanji": "印",
+      "reading": "しるし",
+      "meaning": "a mark / token"
+    },
+    {
+      "kanji": "め印",
+      "reading": "めしるし",
+      "meaning": "a sign / landmark"
+    },
+    {
+      "kanji": "印刷",
+      "reading": "いんさつ",
+      "meaning": "printing"
+    },
+    {
+      "kanji": "拡大",
+      "reading": "かくだい",
+      "meaning": "enlargement"
+    },
+    {
+      "kanji": "縮小",
+      "reading": "しゅくしょう",
+      "meaning": "reduction"
+    },
+    {
+      "kanji": "反対",
+      "reading": "はんたい",
+      "meaning": "opposition"
+    },
+    {
+      "kanji": "賛成",
+      "reading": "さんせい",
+      "meaning": "approval"
+    },
+    {
+      "kanji": "拾う",
+      "reading": "ひろう",
+      "meaning": "pick up"
+    },
+    {
+      "kanji": "鋭い",
+      "reading": "するどい",
+      "meaning": "sharp"
+    },
+    {
+      "kanji": "鈍い",
+      "reading": "にぶい",
+      "meaning": "blunt"
+    },
+    {
+      "kanji": "肯定",
+      "reading": "こうてい",
+      "meaning": "affirmation"
+    },
+    {
+      "kanji": "否定",
+      "reading": "ひてい",
+      "meaning": "negation"
+    },
+    {
+      "kanji": "浮く",
+      "reading": "うく",
+      "meaning": "float"
+    },
+    {
+      "kanji": "沈む",
+      "reading": "しずむ",
+      "meaning": "sink"
+    }
+  ]
+}
